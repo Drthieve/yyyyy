@@ -1,0 +1,133 @@
+body {
+    background: #1c1c1c;
+    }
+    
+    nav {
+    background: #f7f7f7;
+    color: #1c1c1c;
+    }
+    
+    li {
+    color: #f7f7f7;
+    }
+    
+    .tablemultiplication td {
+    background-color: #1c1c1c;
+    color: #f7f7f7;
+    }
+    
+    .tablemultiplication th {
+    background-color: #2eb0f0;
+    color: #f7f7f7;
+    }
+    
+    /* Original code */
+    
+    nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px;
+    }
+    
+    nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    }
+    
+    nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+    color: #2eb0f0;
+    }
+    
+    body {
+    font-family: 'Tw Cent Mt';
+    font-size: 20px;
+    }
+    
+    *,
+    *::before,
+    *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vb;
+    background: url('images/background.jpg') center center repeat;
+    background-size: 100%;
+    }
+    
+    header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    
+    h1 {
+    font-size: 75px;
+    line-height: 3;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    }
+    
+    table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    }
+    
+    th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-style: initial;
+    padding: 5px;
+    border: 2px solid gray;
+    width: auto;
+    color: black;
+    text-align: center;
+    }
+    
+    td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: initial;
+    padding: 5px;
+    border: 2px solid gray;
+    width: auto;
+    color : black ;
+    text-align: center;
+    }
+    
+    h2 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #fff;
+    }
